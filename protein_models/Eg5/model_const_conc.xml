@@ -1,0 +1,4390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model substanceUnits="mole" timeUnits="second" extentUnits="mole">
+    <listOfUnitDefinitions>
+      <unitDefinition id="per_second">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="litre_per_mole_per_second">
+        <listOfUnits>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c1" spatialDimensions="3" size="1" units="litre" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="Crosslinker" compartment="c1" initialAmount="5.775e-05" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CrosslinkerMonoHydrolized" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CrosslinkerBiHydrolized" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_15" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_17" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_34" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_48" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_60" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_64" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_77" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_146" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_157" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_191" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_197" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_207" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_216" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_220" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_246" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_257" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_260" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_315" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_357" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_362" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P52732_A_368" compartment="c1" initialAmount="5.5e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_15" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_17" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_34" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_48" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_60" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_64" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_77" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_146" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_157" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_191" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_197" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_207" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_216" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_220" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_246" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_257" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_260" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_315" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_357" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mono_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_15" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_17" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_34" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_48" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_60" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_64" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_77" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_146" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_157" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_191" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_197" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_207" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_216" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_220" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_246" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_257" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_260" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_315" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_357" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MonoHydro_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_15_P52732_A_17" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_15_P52732_A_48" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_15_P52732_A_191" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_15_P52732_A_257" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_15_P52732_A_357" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_15_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_15_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_17_P52732_A_48" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_17_P52732_A_146" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_17_P52732_A_257" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_17_P52732_A_357" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_17_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_17_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_34_P52732_A_77" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_48_P52732_A_64" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_48_P52732_A_77" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_48_P52732_A_357" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_48_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_60_P52732_A_64" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_64_P52732_A_357" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_77_P52732_A_207" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_146_P52732_A_207" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_146_P52732_A_246" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_146_P52732_A_257" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_191" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_197" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_207" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_216" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_220" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_246" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_260" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_157_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_191_P52732_A_197" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_191_P52732_A_260" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_191_P52732_A_315" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_191_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_191_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_197_P52732_A_220" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_197_P52732_A_246" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_197_P52732_A_260" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_197_P52732_A_315" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_197_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_207_P52732_A_216" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_207_P52732_A_246" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_216_P52732_A_220" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_246_P52732_A_257" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_246_P52732_A_260" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_246_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_246_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_257_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_257_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_260_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_260_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_357_P52732_A_362" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="XL_P52732_A_362_P52732_A_368" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="kh" value="2.5e-05" units="per_second" constant="false"/>
+      <parameter id="kon" value="10000000" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="koff" value="1000000000" units="per_second" constant="false"/>
+      <parameter id="MolecularWeight" value="42809.1193" units="per_second" constant="false"/>
+      <parameter id="NumLys" value="21" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_15" value="0.62618064516129" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_17" value="0.388896699656175" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_34" value="0.480035718562255" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_48" value="0.451520992143593" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_60" value="0.206201005246819" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_64" value="0.424806062438373" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_77" value="0.410585696424252" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_146" value="0.592514818891709" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_157" value="0.333220975651681" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_191" value="0.43888726960761" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_197" value="0.191851494169349" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_207" value="0.593712218066517" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_216" value="0.50473953552258" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_220" value="0.394154838709677" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_246" value="0.286582489917131" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_257" value="0.431231026409689" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_260" value="0.329207249073769" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_315" value="0.21097573092169" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_357" value="0.30001298518894" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_362" value="0.310375877690908" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_368" value="0.427373063636672" units="per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_15_P52732_A_17" value="297020624.766321" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_15_P52732_A_48" value="32167958.971586" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_15_P52732_A_191" value="133153272.889231" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_15_P52732_A_257" value="39378381.475594" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_15_P52732_A_357" value="613843371.006492" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_15_P52732_A_362" value="54899932.7180072" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_15_P52732_A_368" value="69991400.6388423" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_17_P52732_A_48" value="639902448.67551" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_17_P52732_A_146" value="3783167.13324849" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_17_P52732_A_257" value="20046735.0998857" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_17_P52732_A_357" value="608495254.930941" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_17_P52732_A_362" value="399524866.891967" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_17_P52732_A_368" value="14971029.3856951" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_34_P52732_A_77" value="1615535.43975832" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_48_P52732_A_64" value="42550059.3355271" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_48_P52732_A_77" value="146250543.589109" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_48_P52732_A_357" value="881212011.970251" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_48_P52732_A_362" value="1000000" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_60_P52732_A_64" value="961838829.711235" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_64_P52732_A_357" value="458888694.861882" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_77_P52732_A_207" value="18949502.3875805" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_146_P52732_A_207" value="165908937.914601" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_146_P52732_A_246" value="590257316.506083" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_146_P52732_A_257" value="943957042.108748" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_191" value="3659608.02975799" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_197" value="939149712.616539" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_207" value="9348797.17713875" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_216" value="46138160.6443314" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_220" value="5071740.13018598" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_246" value="954406499.361218" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_260" value="467347281.667424" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_157_P52732_A_368" value="233331769.066913" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_191_P52732_A_197" value="181441980.342246" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_191_P52732_A_260" value="523563026.869952" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_191_P52732_A_315" value="78801475.4079016" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_191_P52732_A_362" value="807045747.527923" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_191_P52732_A_368" value="353783471.207892" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_197_P52732_A_220" value="74939956.6964968" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_197_P52732_A_246" value="1198141.98301267" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_197_P52732_A_260" value="896327951.812301" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_197_P52732_A_315" value="12128890.0447219" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_197_P52732_A_368" value="7174582.43603841" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_207_P52732_A_216" value="27210402.4983148" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_207_P52732_A_246" value="6082602.25718137" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_216_P52732_A_220" value="381836123.567913" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_246_P52732_A_257" value="144667245.668983" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_246_P52732_A_260" value="32465040.8702588" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_246_P52732_A_362" value="1682251.2130313" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_246_P52732_A_368" value="1000000000" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_257_P52732_A_362" value="70707979.3149811" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_257_P52732_A_368" value="295462543.629185" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_260_P52732_A_362" value="11336967.9352523" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_260_P52732_A_368" value="764235565.064526" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_357_P52732_A_362" value="46854464.5616631" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="kon_xl_P52732_A_362_P52732_A_368" value="206177217.434674" units="litre_per_mole_per_second" constant="false"/>
+      <parameter id="k_zero" value="0" units="per_second" constant="false"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="v1" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Crosslinker </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v2" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="CrosslinkerBiHydrolized" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v3" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_15 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v4" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_17 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v5" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_34" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_34" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_34 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_34 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v6" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_48 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v7" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_60" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_60" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_60 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_60 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v8" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_64" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_64 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_64 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v9" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_77" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_77 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_77 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v10" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_146" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_146 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_146 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v11" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_157 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v12" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_191 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v13" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_197 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v14" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_207" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_207 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v15" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_216" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_216 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_216 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v16" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_220" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_220 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_220 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v17" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_246 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v18" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_257 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v19" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_260 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v20" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_315" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_315 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_315 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v21" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_357" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_357 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v22" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_362 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v23" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Crosslinker" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_368 </ci>
+              <ci> Crosslinker </ci>
+              <ci> LYS_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v24" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v25" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v26" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_34" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_34" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_34 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v27" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v28" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_60" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_60" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_60 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v29" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_64 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v30" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_77 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v31" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_146 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v32" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v33" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v34" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v35" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v36" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_216 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v37" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_220 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v38" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v39" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v40" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v41" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_315 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v42" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v43" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v44" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kh </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v45" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_15 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v46" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_17 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v47" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_34" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_34" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_34 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_34 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v48" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_48 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v49" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_60" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_60" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_60 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_60 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v50" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_64" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_64 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_64 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v51" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_77" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_77 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_77 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v52" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_146" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_146 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_146 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v53" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_157 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v54" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_191 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v55" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_197 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v56" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_207" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_207 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v57" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_216" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_216 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_216 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v58" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_220" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_220 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_220 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v59" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_246 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v60" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_257 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v61" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_260 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v62" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_315" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_315 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_315 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v63" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_357" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_357 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v64" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_362 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v65" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="CrosslinkerMonoHydrolized" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MonoHydro_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> klys_P52732_A_368 </ci>
+              <ci> CrosslinkerMonoHydrolized </ci>
+              <ci> LYS_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v66" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_17 </ci>
+                  <ci> klys_P52732_A_15 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_15 </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v67" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_48 </ci>
+                  <ci> klys_P52732_A_15 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_15 </ci>
+              <ci> Mono_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v68" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_191 </ci>
+                  <ci> klys_P52732_A_15 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_15 </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v69" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_15 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_15 </ci>
+              <ci> Mono_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v70" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_15 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_15 </ci>
+              <ci> Mono_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v71" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_15 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_15 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v72" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_15" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_15 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_15 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v73" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_17 </ci>
+                  <ci> klys_P52732_A_17 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_17 </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v74" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_48 </ci>
+                  <ci> klys_P52732_A_17 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_17 </ci>
+              <ci> Mono_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v75" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_146 </ci>
+                  <ci> klys_P52732_A_17 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_17 </ci>
+              <ci> Mono_P52732_A_146 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v76" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_17 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_17 </ci>
+              <ci> Mono_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v77" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_17 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_17 </ci>
+              <ci> Mono_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v78" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_17 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_17 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v79" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_17" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_17 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_17 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v80" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_34" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_34_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_34_P52732_A_77 </ci>
+                  <ci> klys_P52732_A_34 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_34 </ci>
+              <ci> Mono_P52732_A_77 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v81" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_48 </ci>
+                  <ci> klys_P52732_A_48 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_48 </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v82" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_48 </ci>
+                  <ci> klys_P52732_A_48 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_48 </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v83" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_64 </ci>
+                  <ci> klys_P52732_A_48 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_48 </ci>
+              <ci> Mono_P52732_A_64 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v84" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_77 </ci>
+                  <ci> klys_P52732_A_48 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_48 </ci>
+              <ci> Mono_P52732_A_77 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v85" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_48 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_48 </ci>
+              <ci> Mono_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v86" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_48" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_48 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_48 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v87" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_60" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_60_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_60_P52732_A_64 </ci>
+                  <ci> klys_P52732_A_60 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_60 </ci>
+              <ci> Mono_P52732_A_64 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v88" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_64" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_64 </ci>
+                  <ci> klys_P52732_A_64 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_64 </ci>
+              <ci> Mono_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v89" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_64" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_60" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_60_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_60_P52732_A_64 </ci>
+                  <ci> klys_P52732_A_64 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_64 </ci>
+              <ci> Mono_P52732_A_60 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v90" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_64" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_64_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_64_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_64 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_64 </ci>
+              <ci> Mono_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v91" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_77" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_34" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_34_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_34_P52732_A_77 </ci>
+                  <ci> klys_P52732_A_77 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_77 </ci>
+              <ci> Mono_P52732_A_34 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v92" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_77" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_77 </ci>
+                  <ci> klys_P52732_A_77 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_77 </ci>
+              <ci> Mono_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v93" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_77" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_77_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_77_P52732_A_207 </ci>
+                  <ci> klys_P52732_A_77 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_77 </ci>
+              <ci> Mono_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v94" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_146" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_146 </ci>
+                  <ci> klys_P52732_A_146 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_146 </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v95" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_146" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_146_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_146_P52732_A_207 </ci>
+                  <ci> klys_P52732_A_146 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_146 </ci>
+              <ci> Mono_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v96" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_146" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_146_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_146_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_146 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_146 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v97" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_146" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_146_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_146_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_146 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_146 </ci>
+              <ci> Mono_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v98" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_191 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v99" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_197 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v100" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_207 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v101" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_216 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_216 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v102" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_220 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_220 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v103" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v104" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v105" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_157" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_157 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_157 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v106" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_191 </ci>
+                  <ci> klys_P52732_A_191 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_191 </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v107" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_191 </ci>
+                  <ci> klys_P52732_A_191 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_191 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v108" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_197 </ci>
+                  <ci> klys_P52732_A_191 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_191 </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v109" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_191 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_191 </ci>
+              <ci> Mono_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v110" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_315 </ci>
+                  <ci> klys_P52732_A_191 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_191 </ci>
+              <ci> Mono_P52732_A_315 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v111" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_191 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_191 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v112" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_191" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_191 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_191 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v113" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_197 </ci>
+                  <ci> klys_P52732_A_197 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_197 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v114" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_197 </ci>
+                  <ci> klys_P52732_A_197 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_197 </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v115" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_220 </ci>
+                  <ci> klys_P52732_A_197 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_197 </ci>
+              <ci> Mono_P52732_A_220 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v116" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_197 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_197 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v117" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_197 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_197 </ci>
+              <ci> Mono_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v118" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_315 </ci>
+                  <ci> klys_P52732_A_197 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_197 </ci>
+              <ci> Mono_P52732_A_315 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v119" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_197" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_197 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_197 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v120" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_207" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_77" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_77_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_77_P52732_A_207 </ci>
+                  <ci> klys_P52732_A_207 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_207 </ci>
+              <ci> Mono_P52732_A_77 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v121" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_207" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_146_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_146_P52732_A_207 </ci>
+                  <ci> klys_P52732_A_207 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_207 </ci>
+              <ci> Mono_P52732_A_146 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v122" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_207" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_207 </ci>
+                  <ci> klys_P52732_A_207 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_207 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v123" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_207" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_207_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_207_P52732_A_216 </ci>
+                  <ci> klys_P52732_A_207 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_207 </ci>
+              <ci> Mono_P52732_A_216 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v124" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_207" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_207_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_207_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_207 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_207 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v125" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_216" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_216 </ci>
+                  <ci> klys_P52732_A_216 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_216 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v126" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_216" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_207_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_207_P52732_A_216 </ci>
+                  <ci> klys_P52732_A_216 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_216 </ci>
+              <ci> Mono_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v127" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_216" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_216_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_216_P52732_A_220 </ci>
+                  <ci> klys_P52732_A_216 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_216 </ci>
+              <ci> Mono_P52732_A_220 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v128" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_220" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_220 </ci>
+                  <ci> klys_P52732_A_220 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_220 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v129" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_220" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_220 </ci>
+                  <ci> klys_P52732_A_220 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_220 </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v130" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_220" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_216" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_216_P52732_A_220" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_216_P52732_A_220 </ci>
+                  <ci> klys_P52732_A_220 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_220 </ci>
+              <ci> Mono_P52732_A_216 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v131" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_146_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_146_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_146 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v132" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v133" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v134" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_207" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_207_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_207_P52732_A_246 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_207 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v135" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v136" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v137" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v138" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_246" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_246 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_246 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v139" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_257 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_257 </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v140" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_257 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_257 </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v141" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_146" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_146_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_146_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_257 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_257 </ci>
+              <ci> Mono_P52732_A_146 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v142" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_257 </ci>
+                  <ci> klys_P52732_A_257 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_257 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v143" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_257_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_257_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_257 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_257 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v144" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_257" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_257_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_257_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_257 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_257 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v145" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_260 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_260 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v146" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_260 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_260 </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v147" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_260 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_260 </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v148" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_260 </ci>
+                  <ci> klys_P52732_A_260 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_260 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v149" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_260_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_260_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_260 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_260 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v150" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_260" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_260_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_260_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_260 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_260 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v151" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_315" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_315 </ci>
+                  <ci> klys_P52732_A_315 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_315 </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v152" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_315" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_315" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_315 </ci>
+                  <ci> klys_P52732_A_315 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_315 </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v153" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_357" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_357 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_357 </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v154" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_357" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_357 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_357 </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v155" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_357" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_357 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_357 </ci>
+              <ci> Mono_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v156" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_357" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_64" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_64_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_64_P52732_A_357 </ci>
+                  <ci> klys_P52732_A_357 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_357 </ci>
+              <ci> Mono_P52732_A_64 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v157" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_357" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_357_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_357_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_357 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_357 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v158" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v159" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v160" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_48" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_48_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_48_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_48 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v161" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v162" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v163" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_257_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_257_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v164" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_260_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_260_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v165" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_357" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_357_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_357_P52732_A_362 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_357 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v166" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_362" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_362_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_362_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_362 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_362 </ci>
+              <ci> Mono_P52732_A_368 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v167" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_15_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_15_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_15 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v168" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_17" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_17_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_17_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v169" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_157" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_157_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_157_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_157 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v170" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_191" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_191_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_191_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_191 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v171" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_197" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_197_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_197_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_197 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v172" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_246" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_246_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_246_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_246 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v173" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_257" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_257_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_257_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_257 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v174" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_260" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_260_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_260_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_260 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v175" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="LYS_P52732_A_368" stoichiometry="1" constant="true"/>
+          <speciesReference species="Mono_P52732_A_362" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="XL_P52732_A_362_P52732_A_368" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kon_xl_P52732_A_362_P52732_A_368 </ci>
+                  <ci> klys_P52732_A_368 </ci>
+                </apply>
+                <ci> kon </ci>
+              </apply>
+              <ci> LYS_P52732_A_368 </ci>
+              <ci> Mono_P52732_A_362 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
