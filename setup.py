@@ -13,6 +13,7 @@ setuptools.setup(name='xlink_kme_sbml_analysis,
       install_requires=[
           'numpy',
           'pandas',
+          'tellurium',
           'altair',
           'vegafusion',
           'vegafusion-python-embed',
