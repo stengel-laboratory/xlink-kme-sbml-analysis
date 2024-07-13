@@ -19,120 +19,120 @@
       <compartment id="c1" spatialDimensions="3" size="1" units="litre" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="Crosslinker" compartment="c1" initialAmount="0.000301418728096863" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Crosslinker" compartment="c1" initialAmount="0.000301418728096865" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="CrosslinkerMonoHydrolized" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="CrosslinkerBiHydrolized" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_43" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_44" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_51" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_82" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_97" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_114" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_133" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_154" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_183" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_203" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_219" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_227" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_241" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_242" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_267" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_283" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_300" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_337" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_340" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_343" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_386" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_396" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_405" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_406" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_464" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_475" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_480" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_534" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_544" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_562" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_578" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_585" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_586" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_588" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_593" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_600" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_A_611" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_656" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_660" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_663" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_666" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_670" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_699" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_700" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_757" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_761" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_767" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_774" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_790" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_791" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_839" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_857" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_869" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_882" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_891" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_905" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_908" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_918" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_937" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_979" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1014" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1019" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1028" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1029" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1049" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1062" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1083" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1089" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1091" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1117" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1133" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1149" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1181" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1187" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1193" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1195" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1203" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1222" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1262" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1284" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1303" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1315" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1329" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1331" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1338" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1342" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1346" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1353" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1359" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1397" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1409" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1414" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1428" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1440" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1456" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1475" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1479" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1482" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1500" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1504" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1513" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1524" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1529" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1548" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1567" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1573" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1577" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1578" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1593" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1602" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS_P01024_B_1622" compartment="c1" initialAmount="5.43096807381736e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_43" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_44" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_51" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_82" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_97" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_114" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_133" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_154" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_183" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_203" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_219" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_227" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_241" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_242" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_267" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_283" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_300" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_337" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_340" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_343" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_386" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_396" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_405" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_406" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_464" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_475" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_480" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_534" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_544" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_562" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_578" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_585" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_586" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_588" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_593" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_600" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_A_611" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_656" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_660" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_663" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_666" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_670" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_699" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_700" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_757" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_761" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_767" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_774" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_790" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_791" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_839" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_857" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_869" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_882" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_891" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_905" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_908" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_918" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_937" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_979" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1014" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1019" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1028" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1029" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1049" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1062" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1083" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1089" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1091" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1117" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1133" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1149" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1181" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1187" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1193" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1195" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1203" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1222" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1262" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1284" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1303" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1315" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1329" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1331" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1338" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1342" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1346" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1353" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1359" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1397" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1409" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1414" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1428" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1440" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1456" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1475" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1479" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1482" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1500" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1504" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1513" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1524" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1529" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1548" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1567" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1573" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1577" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1578" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1593" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1602" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS_P01024_B_1622" compartment="c1" initialAmount="5.43096807381739e-06" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="Mono_P01024_A_43" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="Mono_P01024_A_44" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="Mono_P01024_A_51" compartment="c1" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
@@ -360,119 +360,120 @@
       <parameter id="kh" value="2.5e-05" units="per_second" constant="false"/>
       <parameter id="kon" value="10000000" units="litre_per_mole_per_second" constant="false"/>
       <parameter id="koff" value="1000000000" units="per_second" constant="false"/>
-      <parameter id="MolecularWeight" value="184129.235600001" units="per_second" constant="false"/>
+      <parameter id="MolecularWeight" value="184129.2356" units="per_second" constant="false"/>
       <parameter id="NumLys" value="111" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_43" value="0.647538961038961" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_44" value="0.109605919615066" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_51" value="0.468134764157254" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_82" value="0.416074947098432" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_97" value="0.146425857829564" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_114" value="0.342193040501382" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_133" value="0.371543916409289" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_154" value="0.46754998083961" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_183" value="0.409323011694006" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_203" value="0.367533168653463" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_219" value="0.554650278089322" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_227" value="0.548151307042824" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_241" value="0.356997771233265" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_242" value="0.438545798258529" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_267" value="0.357293561778399" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_283" value="0.553480159345944" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_300" value="0.358196329800644" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_337" value="0.418994625887603" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_340" value="0.33975364928751" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_343" value="0.5005" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_386" value="0.318560118169109" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_396" value="0.529863398856379" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_405" value="0.426358776806452" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_406" value="0.373038041123879" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_464" value="0.368635646833303" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_475" value="0.247486722458507" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_480" value="0.347106449705417" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_534" value="0.378355020706623" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_544" value="0.394249306601196" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_562" value="0.30699819777129" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_578" value="0.461939897628899" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_585" value="0.420976544890454" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_586" value="0.521538302407209" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_588" value="0.297664893834791" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_593" value="0.383632540936384" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_600" value="0.607235474990179" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_A_611" value="0.515055087942501" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_656" value="0.424486831358195" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_660" value="0.457594678211715" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_663" value="0.495629144923154" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_666" value="0.477203207184403" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_670" value="0.568456491383381" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_699" value="0.053865073166581" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_700" value="0.433340354561812" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_757" value="0.565960233968075" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_761" value="0.530879955197913" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_767" value="0.353114953192754" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_774" value="0.377083066511201" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_790" value="0.521807345864856" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_791" value="0.408205992715132" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_839" value="0.384832029580233" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_857" value="0.609041272244236" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_869" value="0.262013626594335" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_882" value="0.443192307268025" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_891" value="0.440081864349527" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_905" value="0.382400603194574" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_908" value="0.227439063192257" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_918" value="0.424720885647888" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_937" value="0.516584916822996" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_979" value="0.543634556282181" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1014" value="0.117126474288756" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1019" value="0.418085135247066" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1028" value="0.417425807019225" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1029" value="0.423036172674429" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1049" value="0.591208818418248" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1062" value="0.500092460420767" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1083" value="0.376641950652154" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1089" value="0.331913286567921" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1091" value="0.378747939339952" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1117" value="0.359933196419448" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1133" value="0.470475140037151" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1149" value="0.38386898345636" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1181" value="0.460188626008084" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1187" value="0.228168644611844" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1193" value="0.428066550111367" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1195" value="0.471263159974679" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1203" value="0.409122992664752" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1222" value="0.553372563637155" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1262" value="0.413346827184006" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1284" value="0.336323969070012" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1303" value="0.534138610714667" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1315" value="0.518861007923427" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1329" value="0.436338336710051" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1331" value="0.546601358169248" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1338" value="0.2790144478045" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1342" value="0.511819373202571" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1346" value="0.467593929016431" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1353" value="0.487091706197763" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1359" value="0.330584738430782" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1397" value="0.602102376624729" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1409" value="0.487596943946417" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1414" value="0.396988092373242" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1428" value="0.523457266775744" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1440" value="0.538748411192826" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1456" value="0.480427632931454" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1475" value="0.311266452428586" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1479" value="0.222184150836913" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1482" value="0.259087414503898" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1500" value="0.376043780810169" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1504" value="0.519366928185255" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1513" value="0.445497216826508" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1524" value="0.29006661433729" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1529" value="0.351851912740524" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1548" value="0.479811123102459" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1567" value="0.513495249983588" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1573" value="0.61036719756839" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1577" value="0.471145154891569" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1578" value="0.494159581163689" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1593" value="0.594489305503106" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1602" value="0.545258474126818" units="per_second" constant="false"/>
-      <parameter id="klys_P01024_B_1622" value="0.541337094524717" units="per_second" constant="false"/>
+      <parameter id="pH" value="7" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_43" value="0.522515719803311" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_44" value="0.517162890835139" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_51" value="0.343111522921604" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_82" value="0.214547444900692" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_97" value="0.0294948527594037" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_114" value="0.0238025849069838" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_133" value="0.246520675173639" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_154" value="0.090373318286196" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_183" value="0.230372756510077" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_203" value="0.0766127889198518" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_219" value="0.392959679988905" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_227" value="0.339353754616039" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_241" value="0.162856296968428" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_242" value="0.263495833778382" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_267" value="0.188850067640627" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_283" value="0.32692140228374" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_300" value="0.0995865995072165" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_337" value="0.0940440640483333" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_340" value="0.163398530061265" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_343" value="0.001" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_386" value="0.178196368421904" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_396" value="0.395511909907863" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_405" value="0.205662454677339" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_406" value="0.173958862310529" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_464" value="0.204225222992643" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_475" value="0.0570870250380113" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_480" value="0.141930408443491" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_534" value="0.20725229935533" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_544" value="0.206363764783506" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_562" value="0.12804794258736" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_578" value="0.167708778763601" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_585" value="0.350291397226159" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_586" value="0.388714709293935" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_588" value="0.163313404886274" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_593" value="0.200825816048267" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_600" value="0.410618093931613" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_A_611" value="0.230770954977029" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_656" value="0.201439205767467" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_660" value="0.0565673715180951" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_663" value="0.279662561373092" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_666" value="0.322429778596799" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_670" value="0.245691518631048" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_699" value="0.553365073166581" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_700" value="0.249257366868688" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_757" value="0.326671317657177" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_761" value="0.366469531357253" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_767" value="0.0577812670142794" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_774" value="0.202033102031054" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_790" value="0.371271300766527" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_791" value="0.233156028234985" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_839" value="0.203306110146738" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_857" value="0.45148003331787" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_869" value="0.204317041280948" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_882" value="0.2565700109434" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_891" value="0.233695741211543" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_905" value="0.206045483968329" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_908" value="0.133181498059233" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_918" value="0.151547891747919" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_937" value="0.331230105644707" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_979" value="0.27269251699337" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1014" value="0.446526343420745" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1019" value="0.133801002281593" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1028" value="0.196729484890112" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1029" value="0.18259996535388" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1049" value="0.446433983331924" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1062" value="0.0514310262743689" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1083" value="0.226105905553824" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1089" value="0.0200937659695818" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1091" value="0.115640723520549" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1117" value="0.13688557082872" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1133" value="0.187299114720449" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1149" value="0.234760941674804" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1181" value="0.294427765531679" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1187" value="0.0953450514985702" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1193" value="0.24525982522325" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1195" value="0.289737240541184" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1203" value="0.158424938209076" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1222" value="0.322159871962335" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1262" value="0.116911060762494" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1284" value="0.315618735812088" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1303" value="0.348783799536377" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1315" value="0.24234732858997" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1329" value="0.120136914900567" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1331" value="0.352459883904411" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1338" value="0.124241019216897" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1342" value="0.267950186309006" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1346" value="0.282239117838142" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1353" value="0.225107381360703" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1359" value="0.251712763231007" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1397" value="0.16642634345904" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1409" value="0.131052149081494" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1414" value="0.196683106108242" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1428" value="0.271625519458661" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1440" value="0.0922509991590677" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1456" value="0.147835446320064" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1475" value="0.26041612792181" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1479" value="0.169024045548974" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1482" value="0.0587824282388983" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1500" value="0.127616810528187" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1504" value="0.289314899724975" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1513" value="0.202770908073676" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1524" value="0.0542289552856065" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1529" value="0.2070770776542" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1548" value="0.136320882230912" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1567" value="0.0312993459355208" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1573" value="0.337194203668422" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1577" value="0.272065976078219" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1578" value="0.149580578799794" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1593" value="0.371441679912377" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1602" value="0.28890364116949" units="per_second" constant="false"/>
+      <parameter id="klys_P01024_B_1622" value="0.294047573196516" units="per_second" constant="false"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="v1" reversible="false" fast="false">

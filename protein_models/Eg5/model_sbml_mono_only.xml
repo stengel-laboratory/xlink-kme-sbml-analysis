@@ -92,27 +92,28 @@
       <parameter id="koff" value="1000000000" units="per_second" constant="false"/>
       <parameter id="MolecularWeight" value="42809.1193" units="per_second" constant="false"/>
       <parameter id="NumLys" value="21" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_15" value="0.62618064516129" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_17" value="0.388896699656175" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_34" value="0.480035718562255" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_48" value="0.451520992143593" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_60" value="0.206201005246819" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_64" value="0.424806062438373" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_77" value="0.410585696424252" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_146" value="0.592514818891709" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_157" value="0.333220975651681" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_191" value="0.43888726960761" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_197" value="0.191851494169349" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_207" value="0.593712218066517" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_216" value="0.50473953552258" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_220" value="0.394154838709677" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_246" value="0.286582489917131" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_257" value="0.431231026409689" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_260" value="0.329207249073769" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_315" value="0.21097573092169" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_357" value="0.30001298518894" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_362" value="0.310375877690908" units="per_second" constant="false"/>
-      <parameter id="klys_P52732_A_368" value="0.427373063636672" units="per_second" constant="false"/>
+      <parameter id="pH" value="7" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_15" value="0.695509454657871" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_17" value="0.426907049045219" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_34" value="0.582459485122204" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_48" value="0.211750617109428" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_60" value="0.705701005246819" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_64" value="0.194532588649583" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_77" value="0.448596045813296" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_146" value="0.0930148188917094" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_157" value="0.236278121362582" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_191" value="0.642938755274393" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_197" value="0.459049075276566" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_207" value="0.152231968303902" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_216" value="0.444991945122312" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_220" value="0.0174990850785412" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_246" value="0.253077901230115" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_257" value="0.0389575404205189" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_260" value="0.17524313116923" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_315" value="0.20500164271449" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_357" value="0.140646349439669" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_362" value="0.534809696401849" units="per_second" constant="false"/>
+      <parameter id="klys_P52732_A_368" value="0.513016963419856" units="per_second" constant="false"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="v1" reversible="false" fast="false">
