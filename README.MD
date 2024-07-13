@@ -7,7 +7,7 @@ Analysis & Visualization of Models created by the Kinetic Simulation Framework f
 This package requires Tellurium installed. Also required is the prot_tools package from https://github.com/stengel-laboratory/prot-tools  
 Requires the Kinetic Simulation Framework for Crosslinks (https://github.com/stengel-laboratory/xlink-kme-sbml) to be installed.  
 Uses altair for visualization: https://github.com/altair-viz/altair  
-Also required are a number of libraries used by altair: vegafusion, vegafusion-python-embed and vl-convert-python. All required packages are listed in the setup.py
+Also required are a number of libraries used by altair installable with altair-all (conda) or altair[all] (pip). All required packages are listed in the setup.py
 
 ## Usage
 There are two Jupyter notebooks. 
