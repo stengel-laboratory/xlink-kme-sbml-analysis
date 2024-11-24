@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Analysis & Visualization of xl-kme models
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Kai-Michael
+    family-names: Kammer
+    email: kai-michael.kammer@uni-konstanz.de
+    affiliation: Universität Konstanz
+    orcid: 'https://orcid.org/0009-0006-9122-0480'
+repository-code: 'https://github.com/stengel-laboratory/xlink-kme-sbml-analysis'
+abstract: Analysis & Visualization of Models created by the Kinetic Simulation Framework for Crosslinks
+keywords:
+  - cross-linking
+  - chemical kinetics
+  - mass spectrometry
+license: GPL-3.0
+commit: 43139b6273b454bc863199501681232c4a7f53ba
+date-released: '2024-07-13'
