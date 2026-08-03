@@ -1,0 +1,20 @@
+name: xlink-kme-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - biopython
+  - scipy
+  - matplotlib
+  - plotly
+  - jinja2
+  - python-libsbml
+  - jupyter
+  - pip
+  - pip:
+      - tellurium
+      - pkai
+      - git+https://github.com/stengel-laboratory/xlink-kme-sbml.git
+      - -e .
