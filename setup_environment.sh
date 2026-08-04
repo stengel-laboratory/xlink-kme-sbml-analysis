@@ -5,7 +5,7 @@ ENV_NAME="xlink-kme-analysis"
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$REPO_ROOT"
-conda env create -f environment.yml
+conda env create -n "$ENV_NAME" -f environment.yml
 CONDA_BASE="$(conda info --base)"
 source "$CONDA_BASE/etc/profile.d/conda.sh"
 conda activate "$ENV_NAME"
