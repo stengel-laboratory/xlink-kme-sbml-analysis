@@ -19,13 +19,18 @@ The notebooks use Python 3.10 because the Tellurium/RoadRunner native wheels
 are not compatible with every newer Python version. From this repository, run
 the one-time setup script:
 
- bash setup_environment.sh
+```bash
+bash setup_environment.sh
+```
 
-The script creates the environment from `environment.yml`, installs a pinned
-release of `xlink-kme-sbml` from its public Git repository, stores the native library path in the conda
-environment, and registers a Jupyter kernel containing that path. VS Code does
-not need to be started from a terminal and no manual `LD_LIBRARY_PATH` export
-is needed later. Select `Python 3 (xlink-kme-analysis)` as the notebook kernel.
+The script creates the environment from `environment.yml`, installs the current
+default branch of `xlink-kme-sbml` from its public Git repository, stores the
+native library path in the conda environment, and registers a Jupyter kernel
+containing that path. The three xlink-kme repositories are maintained in sync,
+so this workflow follows the corresponding upstream model-library changes. VS
+Code does not need to be started from a terminal and no manual
+`LD_LIBRARY_PATH` export is needed later. Select `Python 3
+(xlink-kme-analysis)` as the notebook kernel.
 
 The checked-in protein models contain all four XML variants required by
 `paper_sim_only.ipynb`. Generating new protein models requires the corresponding
