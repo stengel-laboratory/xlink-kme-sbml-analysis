@@ -12,6 +12,7 @@ dependencies:
   - jinja2
   - python-libsbml
   - jupyter
+  - ipykernel
   - pip
   - pip:
       - tellurium
