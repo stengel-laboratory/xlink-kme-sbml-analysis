@@ -21,8 +21,8 @@ the one-time setup script:
 
  bash setup_environment.sh
 
-The script creates the environment from `environment.yml`, installs the public
-`xlink-kme-sbml` package, stores the native library path in the conda
+The script creates the environment from `environment.yml`, installs a pinned
+release of `xlink-kme-sbml` from its public Git repository, stores the native library path in the conda
 environment, and registers a Jupyter kernel containing that path. VS Code does
 not need to be started from a terminal and no manual `LD_LIBRARY_PATH` export
 is needed later. Select `Python 3 (xlink-kme-analysis)` as the notebook kernel.

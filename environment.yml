@@ -16,5 +16,5 @@ dependencies:
   - pip:
       - tellurium
       - pkai
-      - git+https://github.com/stengel-laboratory/xlink-kme-sbml.git
+      - git+https://github.com/stengel-laboratory/xlink-kme-sbml.git@1.1.2
       - -e .

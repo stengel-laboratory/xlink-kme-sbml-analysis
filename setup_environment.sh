@@ -4,7 +4,8 @@ set -euo pipefail
 ENV_NAME="xlink-kme-analysis"
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-conda env create -f "$REPO_ROOT/environment.yml"
+cd "$REPO_ROOT"
+conda env create -f environment.yml
 CONDA_BASE="$(conda info --base)"
 source "$CONDA_BASE/etc/profile.d/conda.sh"
 conda activate "$ENV_NAME"
