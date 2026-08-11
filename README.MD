@@ -23,12 +23,12 @@ the one-time setup script:
 bash setup_environment.sh
 ```
 
-The script creates the environment from `environment.yml`, installs the current
-default branch of `xlink-kme-sbml` from its public Git repository, stores the
+The script creates the environment from `environment.yml`, installs the pinned
+`1.2.0` release of `xlink-kme-sbml` from its public Git repository, stores the
 native library path in the conda environment, and registers a Jupyter kernel
-containing that path. The three xlink-kme repositories are maintained in sync,
-so this workflow follows the corresponding upstream model-library changes. VS
-Code does not need to be started from a terminal and no manual
+containing that path. The three xlink-kme repositories are released in sync, so
+this analysis release uses the corresponding model-library release. VS Code does
+not need to be started from a terminal and no manual
 `LD_LIBRARY_PATH` export is needed later. Select `Python 3
 (xlink-kme-analysis)` as the notebook kernel.
 
@@ -40,5 +40,5 @@ fix in the upstream `xlink-kme-sbml` repository, not this analysis repository.
 
 There are two Jupyter notebooks.
 
-1) paper_sim_only: runs the kinetic simulations via Tellurium. The required protein models are inside the protein_models folder and were previouly created using the Kinetic Simulation Framework for Crosslinks.
-2) paper_viz_only: plots various visualizations from the simulation output created by paper_sim_only. This output is already included inside the Github repository.
+1) paper_sim_only: runs the kinetic simulations via Tellurium. The required protein models are inside the protein_models folder and were previously created using the Kinetic Simulation Framework for Crosslinks.
+2) paper_viz_only: plots various visualizations from the simulation output created by paper_sim_only. This output is already included inside the GitHub repository.

@@ -16,5 +16,5 @@ dependencies:
   - pip=26.1.2
   - pip:
       - tellurium==2.2.13
-      - git+https://github.com/stengel-laboratory/xlink-kme-sbml.git
+      - git+https://github.com/stengel-laboratory/xlink-kme-sbml.git@1.2.0
       - -e .
